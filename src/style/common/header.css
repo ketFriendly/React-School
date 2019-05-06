@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(255,105,180);
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 50px;
+}
+
+.header>a {
+    color:rgb(0,0,128);
+    text-decoration: none;
+}
+
+.logout {
+    color:rgb(0,0,128);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.header_links {
+    display: flex;
+}   
+
+.header_links>a {
+    color:rgb(0,0,128);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-inline-start: 10px;
+}
